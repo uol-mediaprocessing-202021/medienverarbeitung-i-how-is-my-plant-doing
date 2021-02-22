@@ -1,0 +1,335 @@
+------------------- MODEL TESTING FOR B3 MODE masked --------------------
+------------------- MODEL TESTING FOR B3 MODE masked --------------------
++--------+---------------+------+--------+--------------------+
+| Model  | Label         | Hits | Misses | Average Certainty  |
++--------+---------------+------+--------+--------------------+
+| k1.h5  | basil_fresh   | 12   | 4      | 0.8342653196305037 |
+| k1.h5  | basil_dry     | 10   | 5      | 0.9247734228769938 |
+| k1.h5  | parsley_fresh | 0    | 15     | 0.9578896443049113 |
+| k1.h5  | parsley_dry   | 12   | 2      | 0.9262753937925611 |
+| k10.h5 | basil_fresh   | 0    | 16     | 0.804818868637085  |
+| k10.h5 | basil_dry     | 13   | 2      | 0.8655147552490234 |
+| k10.h5 | parsley_fresh | 3    | 12     | 0.790747880935669  |
+| k10.h5 | parsley_dry   | 11   | 3      | 0.9597329923084804 |
+| k2.h5  | basil_fresh   | 6    | 10     | 0.849757619202137  |
+| k2.h5  | basil_dry     | 13   | 2      | 0.9352141737937927 |
+| k2.h5  | parsley_fresh | 1    | 14     | 0.8309085190296173 |
+| k2.h5  | parsley_dry   | 7    | 7      | 0.7754143604210445 |
+| k3.h5  | basil_fresh   | 15   | 1      | 0.9889618642628193 |
+| k3.h5  | basil_dry     | 0    | 15     | 0.9902405460675557 |
+| k3.h5  | parsley_fresh | 2    | 13     | 0.8897298375765482 |
+| k3.h5  | parsley_dry   | 0    | 14     | 0.9964081772736141 |
+| k4.h5  | basil_fresh   | 12   | 4      | 0.8952122777700424 |
+| k4.h5  | basil_dry     | 8    | 7      | 0.7896809220314026 |
+| k4.h5  | parsley_fresh | 0    | 15     | 0.802310460805893  |
+| k4.h5  | parsley_dry   | 8    | 6      | 0.9228669915880475 |
+| k5.h5  | basil_fresh   | 15   | 1      | 0.9731457084417343 |
+| k5.h5  | basil_dry     | 14   | 1      | 0.9470708171526591 |
+| k5.h5  | parsley_fresh | 0    | 15     | 0.960485287507375  |
+| k5.h5  | parsley_dry   | 0    | 14     | 0.8432236015796661 |
+| k6.h5  | basil_fresh   | 5    | 11     | 0.700524415820837  |
+| k6.h5  | basil_dry     | 5    | 10     | 0.9045481324195862 |
+| k6.h5  | parsley_fresh | 0    | 15     | 0.8876512289047241 |
+| k6.h5  | parsley_dry   | 11   | 3      | 0.8244031667709351 |
+| k7.h5  | basil_fresh   | 2    | 14     | 0.6225021928548813 |
+| k7.h5  | basil_dry     | 9    | 6      | 0.8189523001511891 |
+| k7.h5  | parsley_fresh | 3    | 12     | 0.6556709508101145 |
+| k7.h5  | parsley_dry   | 8    | 6      | 0.7089345476457051 |
+| k8.h5  | basil_fresh   | 0    | 16     | 0.9527147747576237 |
+| k8.h5  | basil_dry     | 15   | 0      | 0.9973624666531881 |
+| k8.h5  | parsley_fresh | 0    | 15     | 0.9336717605590821 |
+| k8.h5  | parsley_dry   | 7    | 7      | 0.8508798011711666 |
+| k9.h5  | basil_fresh   | 16   | 0      | 0.9999995231628418 |
+| k9.h5  | basil_dry     | 0    | 15     | 0.9999683419863383 |
+| k9.h5  | parsley_fresh | 0    | 15     | 0.9999993642171224 |
+| k9.h5  | parsley_dry   | 0    | 14     | 1.0                |
++--------+---------------+------+--------+--------------------+
+<table>
+        <tr>
+            <th>Model</th>
+            <th>Label</th>
+            <th>Hits</th>
+            <th>Misses</th>
+            <th>Average Certainty</th>
+        </tr>
+        <tr>
+            <td>k1.h5</td>
+            <td>basil_fresh</td>
+            <td>12</td>
+            <td>4</td>
+            <td>0.8342653196305037</td>
+        </tr>
+        <tr>
+            <td>k1.h5</td>
+            <td>basil_dry</td>
+            <td>10</td>
+            <td>5</td>
+            <td>0.9247734228769938</td>
+        </tr>
+        <tr>
+            <td>k1.h5</td>
+            <td>parsley_fresh</td>
+            <td>0</td>
+            <td>15</td>
+            <td>0.9578896443049113</td>
+        </tr>
+        <tr>
+            <td>k1.h5</td>
+            <td>parsley_dry</td>
+            <td>12</td>
+            <td>2</td>
+            <td>0.9262753937925611</td>
+        </tr>
+        <tr>
+            <td>k10.h5</td>
+            <td>basil_fresh</td>
+            <td>0</td>
+            <td>16</td>
+            <td>0.804818868637085</td>
+        </tr>
+        <tr>
+            <td>k10.h5</td>
+            <td>basil_dry</td>
+            <td>13</td>
+            <td>2</td>
+            <td>0.8655147552490234</td>
+        </tr>
+        <tr>
+            <td>k10.h5</td>
+            <td>parsley_fresh</td>
+            <td>3</td>
+            <td>12</td>
+            <td>0.790747880935669</td>
+        </tr>
+        <tr>
+            <td>k10.h5</td>
+            <td>parsley_dry</td>
+            <td>11</td>
+            <td>3</td>
+            <td>0.9597329923084804</td>
+        </tr>
+        <tr>
+            <td>k2.h5</td>
+            <td>basil_fresh</td>
+            <td>6</td>
+            <td>10</td>
+            <td>0.849757619202137</td>
+        </tr>
+        <tr>
+            <td>k2.h5</td>
+            <td>basil_dry</td>
+            <td>13</td>
+            <td>2</td>
+            <td>0.9352141737937927</td>
+        </tr>
+        <tr>
+            <td>k2.h5</td>
+            <td>parsley_fresh</td>
+            <td>1</td>
+            <td>14</td>
+            <td>0.8309085190296173</td>
+        </tr>
+        <tr>
+            <td>k2.h5</td>
+            <td>parsley_dry</td>
+            <td>7</td>
+            <td>7</td>
+            <td>0.7754143604210445</td>
+        </tr>
+        <tr>
+            <td>k3.h5</td>
+            <td>basil_fresh</td>
+            <td>15</td>
+            <td>1</td>
+            <td>0.9889618642628193</td>
+        </tr>
+        <tr>
+            <td>k3.h5</td>
+            <td>basil_dry</td>
+            <td>0</td>
+            <td>15</td>
+            <td>0.9902405460675557</td>
+        </tr>
+        <tr>
+            <td>k3.h5</td>
+            <td>parsley_fresh</td>
+            <td>2</td>
+            <td>13</td>
+            <td>0.8897298375765482</td>
+        </tr>
+        <tr>
+            <td>k3.h5</td>
+            <td>parsley_dry</td>
+            <td>0</td>
+            <td>14</td>
+            <td>0.9964081772736141</td>
+        </tr>
+        <tr>
+            <td>k4.h5</td>
+            <td>basil_fresh</td>
+            <td>12</td>
+            <td>4</td>
+            <td>0.8952122777700424</td>
+        </tr>
+        <tr>
+            <td>k4.h5</td>
+            <td>basil_dry</td>
+            <td>8</td>
+            <td>7</td>
+            <td>0.7896809220314026</td>
+        </tr>
+        <tr>
+            <td>k4.h5</td>
+            <td>parsley_fresh</td>
+            <td>0</td>
+            <td>15</td>
+            <td>0.802310460805893</td>
+        </tr>
+        <tr>
+            <td>k4.h5</td>
+            <td>parsley_dry</td>
+            <td>8</td>
+            <td>6</td>
+            <td>0.9228669915880475</td>
+        </tr>
+        <tr>
+            <td>k5.h5</td>
+            <td>basil_fresh</td>
+            <td>15</td>
+            <td>1</td>
+            <td>0.9731457084417343</td>
+        </tr>
+        <tr>
+            <td>k5.h5</td>
+            <td>basil_dry</td>
+            <td>14</td>
+            <td>1</td>
+            <td>0.9470708171526591</td>
+        </tr>
+        <tr>
+            <td>k5.h5</td>
+            <td>parsley_fresh</td>
+            <td>0</td>
+            <td>15</td>
+            <td>0.960485287507375</td>
+        </tr>
+        <tr>
+            <td>k5.h5</td>
+            <td>parsley_dry</td>
+            <td>0</td>
+            <td>14</td>
+            <td>0.8432236015796661</td>
+        </tr>
+        <tr>
+            <td>k6.h5</td>
+            <td>basil_fresh</td>
+            <td>5</td>
+            <td>11</td>
+            <td>0.700524415820837</td>
+        </tr>
+        <tr>
+            <td>k6.h5</td>
+            <td>basil_dry</td>
+            <td>5</td>
+            <td>10</td>
+            <td>0.9045481324195862</td>
+        </tr>
+        <tr>
+            <td>k6.h5</td>
+            <td>parsley_fresh</td>
+            <td>0</td>
+            <td>15</td>
+            <td>0.8876512289047241</td>
+        </tr>
+        <tr>
+            <td>k6.h5</td>
+            <td>parsley_dry</td>
+            <td>11</td>
+            <td>3</td>
+            <td>0.8244031667709351</td>
+        </tr>
+        <tr>
+            <td>k7.h5</td>
+            <td>basil_fresh</td>
+            <td>2</td>
+            <td>14</td>
+            <td>0.6225021928548813</td>
+        </tr>
+        <tr>
+            <td>k7.h5</td>
+            <td>basil_dry</td>
+            <td>9</td>
+            <td>6</td>
+            <td>0.8189523001511891</td>
+        </tr>
+        <tr>
+            <td>k7.h5</td>
+            <td>parsley_fresh</td>
+            <td>3</td>
+            <td>12</td>
+            <td>0.6556709508101145</td>
+        </tr>
+        <tr>
+            <td>k7.h5</td>
+            <td>parsley_dry</td>
+            <td>8</td>
+            <td>6</td>
+            <td>0.7089345476457051</td>
+        </tr>
+        <tr>
+            <td>k8.h5</td>
+            <td>basil_fresh</td>
+            <td>0</td>
+            <td>16</td>
+            <td>0.9527147747576237</td>
+        </tr>
+        <tr>
+            <td>k8.h5</td>
+            <td>basil_dry</td>
+            <td>15</td>
+            <td>0</td>
+            <td>0.9973624666531881</td>
+        </tr>
+        <tr>
+            <td>k8.h5</td>
+            <td>parsley_fresh</td>
+            <td>0</td>
+            <td>15</td>
+            <td>0.9336717605590821</td>
+        </tr>
+        <tr>
+            <td>k8.h5</td>
+            <td>parsley_dry</td>
+            <td>7</td>
+            <td>7</td>
+            <td>0.8508798011711666</td>
+        </tr>
+        <tr>
+            <td>k9.h5</td>
+            <td>basil_fresh</td>
+            <td>16</td>
+            <td>0</td>
+            <td>0.9999995231628418</td>
+        </tr>
+        <tr>
+            <td>k9.h5</td>
+            <td>basil_dry</td>
+            <td>0</td>
+            <td>15</td>
+            <td>0.9999683419863383</td>
+        </tr>
+        <tr>
+            <td>k9.h5</td>
+            <td>parsley_fresh</td>
+            <td>0</td>
+            <td>15</td>
+            <td>0.9999993642171224</td>
+        </tr>
+        <tr>
+            <td>k9.h5</td>
+            <td>parsley_dry</td>
+            <td>0</td>
+            <td>14</td>
+            <td>1.0</td>
+        </tr>
+</table>
